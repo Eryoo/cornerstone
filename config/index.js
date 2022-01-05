@@ -13,14 +13,14 @@ module.exports = {
     proxyTable: {
 
       '/api': {
-        target: 'http://test.lrhealth.com',  //目标接口域名
+        target: '',  //目标接口域名
         changeOrigin: true,  //是否跨域
         pathRewrite: {
           '^/api': ''   //重写接口
         }
       },
       '/ftp': {
-        target: 'http://test.lrhealth.com',  //目标接口域名
+        target: '',  //目标接口域名
         changeOrigin: true,  //是否跨域
         pathRewrite: {
           '^/ftp': ''   //重写接口
